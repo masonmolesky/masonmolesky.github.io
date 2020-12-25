@@ -5,7 +5,6 @@ margin: 2px;
 
 /* BACKGROUND IMAGE */
 .banner{
-    background-image: url(photos/banner-image2.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -13,6 +12,33 @@ margin: 2px;
 	width:100%;
 	height: auto;
 } 
+
+.banner1{
+    background-size: cover;
+    background-repeat: repeat-x;
+	background-position: right;
+	width:50%;
+	height: auto;
+}
+
+.headline{
+    display: flex;
+}
+
+
+/* IMAGE FORMATTING */ 
+
+.homepage{
+    float: left;
+    margin-right: 25px;
+}
+
+.profile{
+    width: 45%;
+    height: auto;
+    float: left;
+    margin-right: 25px;
+}
 
 /* NAVIGATION BAR */ 
 nav{
@@ -62,7 +88,7 @@ nav{
     margin: 5px;
 }
 
-@media screen and (max-width: 1608px){
+@media screen and (max-width: 1300px){
     body{
         overflow-x: hidden;
     }
@@ -527,7 +553,21 @@ ul.style2 .icon
     max-height:25%;
     border-radius: 50%;
     float: left;
-    margin-right: 25px;
+    margin-right: 45px;
+    display: flex;
+}
+
+.image-contact2{
+    max-width:25%;
+    max-height:25%;
+    border-radius:0;
+    float: left;
+    margin-right: 45px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
 }
 
 
