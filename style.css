@@ -546,7 +546,7 @@ ul.style2 .icon
     margin-right: 10px;
 }
 
-/* LANDING PAGE */ 
+/* Photo Edits */ 
 
 .image-contact1{
     max-width:25%;
@@ -570,7 +570,22 @@ ul.style2 .icon
     display: flex;
 }
 
+.image-contact3{
+    max-width:40%;
+    max-height:40%;
+    border-radius:0;
+    float: left;
+    margin-right: 25px;
+    display: flex;
+}
 
+.masonPhoto{
+    max-width: 70%;
+    max-height: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
 
 
     
