@@ -17,8 +17,8 @@ $fname = $_POST['fname'];
 $lname = $_POST['lname'];
 $email_address = $_POST['email']; 
 $subject = $_POST['subject'];
-
 $message = $_POST['message']; 
+$myemail = $_POST['person']
 
 if (!preg_match(
 "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
